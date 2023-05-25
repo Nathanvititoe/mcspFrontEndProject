@@ -209,3 +209,13 @@ background-color: rgb(26, 24, 24);
     height: 20vh;
 }
 
+#okBtn {
+    height: 2rem;
+    margin: 10%;
+    border: 2px rgb(141, 138, 138) solid;
+    text-align: center;
+}
+
+#okBtn:hover {
+background-color: rgb(26, 24, 24);
+}

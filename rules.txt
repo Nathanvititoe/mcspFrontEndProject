@@ -1,5 +1,6 @@
 <-----BLACKJACK RULES----->
 you start with $100 in your wallet, minimum $1 bet
+if you reset the wallet, you go back to $100
 
 **21 is blackjack, automatic win**
  

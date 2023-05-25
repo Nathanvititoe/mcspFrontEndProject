@@ -342,8 +342,10 @@ function bettingModal() {
   modal.appendChild(input);
 
   var closeModal = document.createElement("button");
-  closeModal.setAttribute("id", "closeModalBtn");
+  closeModal.setAttribute("id", "okBtn");
   closeModal.innerText = "OK";
+  var linebreak = document.createElement('br');
+  modal.appendChild(linebreak);
   modal.appendChild(closeModal);
   closeModal.addEventListener("click", function () {
     if(input.value > player1.wallet) {
