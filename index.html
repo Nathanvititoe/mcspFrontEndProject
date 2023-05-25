@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">git
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Vititoe Blackjack</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <title>Sarcastic Blackjack</title>
+  </head>
+  <body>
+    <div id="contentContainer">
+      <div id="title">
+      <img src="/images/casinochips.png" class="casinoChips">
+        <div class="gameControls">
+          <div class="controlBtns">
+            <button id="beginBtn">New Game</button>
+            <button id="resetWallet">Reset Wallet</button>
+          </div>
+          <div class="walletValue">
+            <p>Betting money : $___</p>
+          </div>
+        </div>
+        <div id="titleBox">
+          <h1>Sarcastic Blackjack</h1>
+          <a href="rules.txt" target="_blank"><p id="rules">Rules</p></a>
+        </div>
+        <div class="playerChoices">
+          <button id="hitMe">Hit Me</button>
+          <button id="stay">Stay</button>
+        </div>
+        <img src="/images/casinochips.png" class="casinoChips">
+      </div>
+    <div id="playArea">
+      <div class="dealerSide">
+        <div id="dealerh1">
+          <h1>Dealers Cards</h1>
+        </div>
+        <div class="dealerCards"></div>
+      </div>
+      <div id="divider"></div>
+      <div class="playerSide">
+        <div id="playerh1">
+          <h1>Your Cards</h1>
+        </div>
+        <div class="playerCards"></div>
+      </div>
+      <div class="modals">
+
+        <dialog close class="testModal">
+          <button id="playAgainModal">Play Again</button>
+          <button id="cancel">cancel</button>
+        </dialog>
+        <dialog close class="bettingModal">
+          <button id="closeBetModal">OK</button>
+        </dialog>
+      </div>
+    </div>
+    <footer>
+      <div class="footerContainer">
+        <p>© Nathan Vititoe 2023</p>
+      </div>
+    </footer>
+    </div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

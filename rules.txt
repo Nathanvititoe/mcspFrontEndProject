@@ -1,0 +1,17 @@
+<-----BLACKJACK RULES----->
+you start with $100 in your wallet, minimum $1 bet
+
+**21 is blackjack, automatic win**
+ 
+if you go over 21 then you bust, automatic loss
+
+dealer will stay at 17 or higher unless there's a tie 
+
+in the case of a tie, the dealer will draw another card no matter what
+
+if neither user or dealer busts or gets blackjack, the closest to 21 wins
+
+
+
+copyright 2023 Nathan Vititoe
+credit https://deckofcardsapi.com/ 

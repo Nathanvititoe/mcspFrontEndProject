@@ -1,0 +1,211 @@
+body {
+   background-color: #2f6b4d;
+   font-family: 'Quicksand', Georgia, 'Times New Roman', Times, serif;
+   position: relative;
+    min-height: 100vh;
+}
+
+#contentContainer {
+    padding-bottom: 2.5rem;
+    height: 1000px;
+}
+
+.casinoChips {
+    height: 200px;
+    width: 8%;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    height: 4rem;
+    width: 6rem;
+    border-radius: 5%;
+    background-color: #363b3a;
+    color: #9faba7;
+    transition: .3s background-color ease-in-out, .3s border ease-in-out;
+    border: 2px solid white
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #d20202;
+    border-radius: 10%;
+    border-color: #363b3a;
+    cursor: pointer;
+}
+
+#title {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+#title h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px #a58d00;
+    color: #d20202;
+}
+
+#titleBox {
+    background-color: #6a7f7a;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 33%;
+    box-shadow: 7px 7px #363b3a;
+}
+
+#rules {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 0 .5%;
+    color: #7c0d0d;
+    transition: .2s all ease-in-out;
+}
+
+#rules:hover {
+    transform: scale(1.2);
+}
+
+a {
+    text-decoration: none;
+}
+
+#playArea {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    height: 75%;
+}
+
+.playerSide {
+    width: 49%;
+}
+
+#playerh1 {
+    display: flex;
+    justify-content: center;
+}
+
+.playerCards {
+    display: flex;
+    gap: 5%;
+    margin: auto 2%;
+    flex-wrap: wrap;
+}
+
+.dealerSide {
+    width: 49%;
+}
+
+#dealerh1 {
+    display: flex;
+    justify-content: center;
+}
+
+.dealerCards {
+    display: flex;
+    gap: 5%;
+    margin: auto 2%;
+    flex-wrap: wrap;
+}
+
+#divider {
+    background-color: black;
+    width: 0.25%;
+}
+
+#playerImg {
+    height: 50%;
+    width: 20%;
+}
+
+#dealerImg {
+    height: 50%;
+    width: 20%;
+}
+
+#cardback {
+    height: 50%;
+    width: 20%;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    margin-bottom: 0;
+    height: 2.5rem;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.testModal {
+    background-color: #9faba7;
+    max-width: 50vw;
+    min-width: 25vw;
+    min-height: 10vh;
+    text-align: center;
+}
+
+
+.testModal::backdrop {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.endGameBtns {
+    height: 2rem;
+    margin: 5%;
+    border: 2px rgb(141, 138, 138) solid;
+    text-align: center;
+}
+
+.endGameBtns:hover {
+background-color: rgb(26, 24, 24);
+}
+
+.gameControls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.walletValue {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.25rem;
+}
+
+.bettingModal::backdrop {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.bettingModal {
+    background-color: #9faba7;
+    max-width: 50vw;
+    min-width: 25vw;
+    min-height: 10vh;
+    text-align: center;
+}
+
+.controlButtons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.playerChoices {
+    height: 20vh;
+}
+
